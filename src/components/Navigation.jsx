@@ -1,5 +1,5 @@
 import React from "react"
-
+import cd from "./assets/cd.png"
 import {Navbar, NavDropdown, Nav, Button} from "react-bootstrap"
 
 
@@ -8,7 +8,7 @@ import {Navbar, NavDropdown, Nav, Button} from "react-bootstrap"
 const Navigation=()=>{
     return(
         <Navbar expand="lg" className="sticky-top">
-            <Navbar.Brand href="#home">Birthday</Navbar.Brand>
+            <Navbar.Brand href="#home"><img src={cd} alt="codetrain-logo" />Codetrain</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
