@@ -14,7 +14,7 @@ const Navigation=()=>{
     return(
         <AppRouter>
         <Navbar expand="lg" className="sticky-top">
-            <Navbar.Brand ><img src={cd} alt="codetrain logo"/></Navbar.Brand>
+            <Navbar.Brand ><Link to="/"><img src={cd} alt="codetrain logo"/></Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
